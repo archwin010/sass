@@ -105,27 +105,64 @@ main {
                 margin-right: 25px;
             }
         }
+
+        .middle__box2 {
+            background-color: $btn-color;
+        }
+
     }
 
     .right{
         width: 25%;
-        background-color: red;
+        background-color: $bg-color;
         height: 500px;
         border-radius: 20px;
         margin: 20px;
+        padding: 5px;
 
-        .right__box{
-            align-items: center;
+        h2{
+            margin: 20px  0 15px 15px;
+            color: #777171;
+            font-weight: 500;
 
-            p{
+            &:hover{
+                text-decoration: overline;
+                border: 2px;
                 color: $btn-color;
-                text-decoration: line-through;
-                text-align: center;
+                transition: 0.4s ease-in;
             }
         }
 
+        .right__box {
+            display: flex;
+            align-items: end;
+
+            img{
+                height: 150px;
+                width: 200px;
+                border: 2px solid $btn-color;
+                border-radius: 20px;
+                margin: 0 15px 0 10px;
+                
+            }
+
+            p{
+                text-align-last: center;
+              
+            }
+        }
+
+        .h__line {
+            height: 3px;
+            background-color: $btn-color;
+            margin-top: 15px;
+        }
         
-        
-        
+        p{
+            text-align: center;
+            margin-top: 5px;
+        }
     }
+
+   
 }

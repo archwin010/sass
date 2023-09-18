@@ -87,10 +87,49 @@ main .middle .middle__box img {
   border-radius: 50px;
   margin-right: 25px;
 }
+main .middle .middle__box2 {
+  background-color: rgb(138, 72, 138);
+}
 main .right {
   width: 25%;
   background-color: rgb(243, 225, 243);
   height: 500px;
   border-radius: 20px;
   margin: 20px;
+  padding: 5px;
+}
+main .right h2 {
+  margin: 20px 0 15px 15px;
+  color: #777171;
+  font-weight: 500;
+}
+main .right h2:hover {
+  text-decoration: overline;
+  border: 2px;
+  color: rgb(138, 72, 138);
+  transition: 0.4s ease-in;
+}
+main .right .right__box {
+  display: flex;
+  align-items: end;
+}
+main .right .right__box img {
+  height: 150px;
+  width: 200px;
+  border: 2px solid rgb(138, 72, 138);
+  border-radius: 20px;
+  margin: 0 15px 0 10px;
+}
+main .right .right__box p {
+  -moz-text-align-last: center;
+       text-align-last: center;
+}
+main .right .h__line {
+  height: 3px;
+  background-color: rgb(138, 72, 138);
+  margin-top: 15px;
+}
+main .right p {
+  text-align: center;
+  margin-top: 5px;
 }/*# sourceMappingURL=style.css.map */
