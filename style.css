@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(243, 225, 243);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .first {
+  margin-left: 40px;
+}
+nav .second {
+  width: auto;
+}
+nav .second a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav .second a:hover {
+  color: rgb(138, 72, 138);
+  text-decoration: overline;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.4s ease-in;
+}
+nav .second a:active {
+  color: red;
+}
+nav .third {
+  margin-right: 40px;
+}
+nav .third input {
+  background-color: rgb(138, 72, 138);
+  padding: 2px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+nav .third input:hover {
+  background-color: rgb(243, 225, 243);
+  color: rgb(138, 72, 138);
+  border: 1px solid rgb(138, 72, 138);
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  margin-top: 20px;
+}
+main .left {
+  width: 25%;
+}
+main .left div {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(243, 225, 243);
+  border-radius: 10px;
+  cursor: pointer;
+}
+main .left div i {
+  margin-right: 30px;
+  color: rgb(138, 72, 138);
+}
+main .middle {
+  width: 50%;
+}
+main .middle .middle__box {
+  background-color: rgb(243, 225, 243);
+  padding: 25px;
+  border-radius: 15px;
+  height: 150px;
+  margin-top: 25px;
+  display: flex;
+}
+main .middle .middle__box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+main .right {
+  width: 25%;
+  background-color: rgb(243, 225, 243);
+  height: 500px;
+  border-radius: 20px;
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */
