@@ -132,4 +132,58 @@ main .right .h__line {
 main .right p {
   text-align: center;
   margin-top: 5px;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: #eeeceb;
+}
+body footer {
+  position: absolute;
+  background: rgb(138, 72, 138);
+  width: 100%;
+}
+body footer .content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+body footer .content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+body footer .content .top .logo-details {
+  color: #fff;
+  font-size: 30px;
+}
+body footer .content .top .media-icons {
+  display: flex;
+}
+body footer .content .top .media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+body footer .content .top .media-icons a:nth-child(1) {
+  color: white;
+  background: blue;
+}
+body footer .content .top .media-icons a:nth-child(2) {
+  color: black;
+}
+body footer .content .top .media-icons a:nth-child(3) {
+  color: tomato;
+}
+body footer .content .top .media-icons a:nth-child(5) {
+  color: #ff0000;
 }/*# sourceMappingURL=style.css.map */

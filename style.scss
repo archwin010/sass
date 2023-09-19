@@ -166,3 +166,66 @@ main {
 
    
 }
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: #eeeceb;
+
+    footer{
+        position: absolute;
+        background: $btn-color;
+        width: 100%;
+
+        .content{
+            max-width: 1250px;
+            margin: auto;
+            padding: 30px 40px 40px 40px;
+
+            .top{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 50px;
+
+                .logo-details{
+                    color: #fff;
+                    font-size: 30px;
+                }
+
+                .media-icons{
+                    display: flex;
+
+                    a{
+                        height: 40px;
+                        width: 40px;
+                        margin: 0 8px;
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: 40px;
+                        color: #fff;
+                        font-size: 17px;
+                        text-decoration: none;
+                        transition: all 0.4s ease;
+
+                        &:nth-child(1){
+                            color: white;
+                            background: blue;
+                        }
+
+                        &:nth-child(2){
+                            color: black;
+                        }
+                        &:nth-child(3){
+                            color: tomato;  
+                        }
+                        &:nth-child(5){
+                            color: #ff0000;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
